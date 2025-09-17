@@ -42,15 +42,23 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/xampp/htdocs/Loesungen/050_kleines_einmaleins",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "vcs.Git",
+    "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\Loesungen\050_kleines_einmaleins" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="020_Henning.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/020_kleinste_von_drei_zahlen/020_Henning.php">
       <method v="2" />
@@ -77,6 +85,7 @@
       <option name="presentableId" value="Default" />
       <updated>1758092493653</updated>
       <workItem from="1758092494783" duration="460000" />
+      <workItem from="1758107897743" duration="1879000" />
     </task>
     <servers />
   </component>
