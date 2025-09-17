@@ -15,6 +15,10 @@ $zahl1 = rand(1,6);
 $zahl2 = rand(1,6);
 $zahl3 = rand(1,6);
 
+$zahl1 = 2;
+$zahl2 = 2;
+$zahl3 = 3;
+
 print "Zahl1 = $zahl1";
 print "\n";
 print "Zahl2 = $zahl2";
