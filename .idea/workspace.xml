@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="60e01931-feaf-4007-ba80-679e15628f1d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/010_Henning.php" beforeDir="false" afterPath="$PROJECT_DIR$/010_Eigenen_Namen_ausgeben/010_Henning.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/020_Henning.php" beforeDir="false" afterPath="$PROJECT_DIR$/020_kleinste_von_drei_zahlen/020_Henning.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/030_Henning.php" beforeDir="false" afterPath="$PROJECT_DIR$/030_wuerfeln/030_Henning.php" afterDir="false" />
+<<<<<<< HEAD
+    <list default="true" id="def4b2b4-88e5-4db9-9e9c-4c9cdbcca175" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/010_Eigenen_Namen_ausgeben/010_Ali.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
     </list>
+=======
+    <list default="true" id="a3c91cfc-574e-475d-bc9f-dde7991a0e97" name="Changes" comment="" />
+>>>>>>> 30178cacf9c651abf05626e4a094ff7065275b8d
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,12 +29,15 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
+<<<<<<< HEAD
+  "associatedIndex": 4
 }]]></component>
-  <component name="ProjectId" id="32mcXhUNLz6Nnab2bEbIjaBBWgB" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="32ogluwAcBgopnpr6PxYQrQ49XF" />
+=======
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="32oglxeP7pGSn3AjAtCkp2MxHjw" />
+>>>>>>> 30178cacf9c651abf05626e4a094ff7065275b8d
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -43,42 +45,23 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "PHP Script.030_Henning.php.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
+<<<<<<< HEAD
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/xampp/htdocs/Loesungen",
+=======
+>>>>>>> 30178cacf9c651abf05626e4a094ff7065275b8d
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "to.speed.mode.migration.done": "true",
+    "settings.editor.selected.configurable": "vcs.Git",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\Loesungen" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\Loesungen\030_wuerfeln" />
-      <recent name="C:\xampp\htdocs\Loesungen\020_kleinste_von_drei_zahlen" />
-      <recent name="C:\xampp\htdocs\Loesungen\010_Eigenen_Namen_ausgeben" />
-    </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="030_Henning.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/030_wuerfeln/030_Henning.php">
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="PHP Script.030_Henning.php" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -89,12 +72,21 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="60e01931-feaf-4007-ba80-679e15628f1d" name="Changes" comment="" />
-      <created>1758029230219</created>
+<<<<<<< HEAD
+      <changelist id="def4b2b4-88e5-4db9-9e9c-4c9cdbcca175" name="Changes" comment="" />
+      <created>1758092494580</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1758029230219</updated>
-      <workItem from="1758029231633" duration="3663000" />
+      <updated>1758092494580</updated>
+      <workItem from="1758092495904" duration="724000" />
+=======
+      <changelist id="a3c91cfc-574e-475d-bc9f-dde7991a0e97" name="Changes" comment="" />
+      <created>1758092493653</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1758092493653</updated>
+      <workItem from="1758092494783" duration="460000" />
+>>>>>>> 30178cacf9c651abf05626e4a094ff7065275b8d
     </task>
     <servers />
   </component>
