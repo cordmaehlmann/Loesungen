@@ -10,11 +10,11 @@
 * Hilfsmittel: rand(), if-elseif-else
 */
 
-$zahl1 = rand(1, 100);
+$zahl1 = rand(1, 3);
 print "Zahl 1: " . $zahl1 . "\n";
-$zahl2 = rand(1, 100);
+$zahl2 = rand(1, 3);
 print "Zahl 2: " . $zahl2 . "\n";
-$zahl3 = rand(1, 100);
+$zahl3 = rand(1, 3);
 print "Zahl 3: " . $zahl3 . "\n";
 
 if ($zahl1 < $zahl2 and $zahl3) {

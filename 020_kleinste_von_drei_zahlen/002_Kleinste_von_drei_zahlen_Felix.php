@@ -26,3 +26,5 @@ elseif ($zahl2 <= $zahl1 && $zahl2 <= $zahl3) {
     print "Von " . $zahl1 . ", " . $zahl2 . ", " . $zahl3. " ist " . $zahl3 . " die kleinste Zahl!";
 }
 
+
+
