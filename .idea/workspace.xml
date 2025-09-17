@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <list default="true" id="def4b2b4-88e5-4db9-9e9c-4c9cdbcca175" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/010_Eigenen_Namen_ausgeben/010_Ali.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+    </list>
+=======
     <list default="true" id="a3c91cfc-574e-475d-bc9f-dde7991a0e97" name="Changes" comment="" />
+>>>>>>> 30178cacf9c651abf05626e4a094ff7065275b8d
+=======
+    <list default="true" id="a3c91cfc-574e-475d-bc9f-dde7991a0e97" name="Changes" comment="" />
+>>>>>>> f5a3787fb3c455333994b90e89ab8f224b967066
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,10 +35,23 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+<<<<<<< HEAD
   <component name="ProjectColorInfo"><![CDATA[{
+<<<<<<< HEAD
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="32ogluwAcBgopnpr6PxYQrQ49XF" />
+=======
   "associatedIndex": 3
 }]]></component>
   <component name="ProjectId" id="32oglxeP7pGSn3AjAtCkp2MxHjw" />
+>>>>>>> 30178cacf9c651abf05626e4a094ff7065275b8d
+=======
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="32oglxeP7pGSn3AjAtCkp2MxHjw" />
+>>>>>>> f5a3787fb3c455333994b90e89ab8f224b967066
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -35,19 +59,55 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+<<<<<<< HEAD
+=======
+    "Notification.DisplayName-DoNotAsk-git.bad.executable": "Cannot Run Git",
+    "Notification.DoNotAsk-git.bad.executable": "true",
+    "PHP Script.020_Henning.php.executor": "Run",
+>>>>>>> f5a3787fb3c455333994b90e89ab8f224b967066
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
+<<<<<<< HEAD
+    "junie.onboarding.icon.badge.shown": "true",
+<<<<<<< HEAD
+=======
+>>>>>>> 30178cacf9c651abf05626e4a094ff7065275b8d
+=======
+    "last_opened_file_path": "C:/xampp/htdocs/Loesungen/050_kleines_einmaleins",
+>>>>>>> f5a3787fb3c455333994b90e89ab8f224b967066
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "vcs.Git",
+<<<<<<< HEAD
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+=======
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\Loesungen\050_kleines_einmaleins" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="020_Henning.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/020_kleinste_von_drei_zahlen/020_Henning.php">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.020_Henning.php" />
+      </list>
+    </recent_temporary>
+  </component>
+>>>>>>> f5a3787fb3c455333994b90e89ab8f224b967066
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -58,12 +118,39 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <changelist id="def4b2b4-88e5-4db9-9e9c-4c9cdbcca175" name="Changes" comment="" />
+      <created>1758092494580</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1758092494580</updated>
+      <workItem from="1758092495904" duration="724000" />
+=======
       <changelist id="a3c91cfc-574e-475d-bc9f-dde7991a0e97" name="Changes" comment="" />
       <created>1758092493653</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1758092493653</updated>
+<<<<<<< HEAD
       <workItem from="1758092494783" duration="6051000" />
+=======
+      <workItem from="1758092494783" duration="460000" />
+>>>>>>> 30178cacf9c651abf05626e4a094ff7065275b8d
+=======
+      <changelist id="a3c91cfc-574e-475d-bc9f-dde7991a0e97" name="Changes" comment="" />
+      <created>1758092493653</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1758092493653</updated>
+      <workItem from="1758092494783" duration="460000" />
+<<<<<<< HEAD
+      <workItem from="1758107897743" duration="1879000" />
+>>>>>>> f5a3787fb3c455333994b90e89ab8f224b967066
+=======
+      <workItem from="1758107897743" duration="1936000" />
+>>>>>>> 2d81ce419f53580df637c2c70f7eea5f313e73e6
+>>>>>>> 65d4a5928beb270d983617adc1de64ab5f2a70ad
     </task>
     <servers />
   </component>
