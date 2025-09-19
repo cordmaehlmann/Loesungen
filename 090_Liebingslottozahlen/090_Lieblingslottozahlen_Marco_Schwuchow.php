@@ -14,7 +14,7 @@
  * und gib sie per foreach als HTML-Liste aus.
  */
 
-$lottozahlen = ['6','16','26','36','49'];
+$lottozahlen = ['6','16','26','36','46','49'];
 
 echo "<ol>";
 foreach ($lottozahlen as $zahl) {
