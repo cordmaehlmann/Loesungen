@@ -70,22 +70,10 @@ echo '<br>';
 * a2b3 a12b13 a22b23
 */
 
-$q = 3;
-for ($p = 2; $p <= 22; $p = $p + 10) {
+for ($p = 2, $q = 3; $p <= 22 && $q <= 23;  $p = $p + 10, $q = $q + 10) {
     echo "a$p"."b$q" . ' ';
-    $q = $q + 10;
 }
 echo '<br>';
-
-/* besser:
-
-for ($p = 2; $p <= 22;  $p = $p + 10) {
-    echo "a$p"."b$p + 1" . ' ';
-}
-echo '<br>';
-
-*/
-
 
 
 /*
@@ -123,7 +111,7 @@ for ($t = 1; $t <= 20; $t++) {
     $summe += $t;
 }
 echo "Die Summe der Zahlen beträgt: $summe";
-echo '<br>';
+echo '<br';
 /*
 * Schreibe EINE for-Schleife, die Folgendes ausgibt:
 * 1 2 3 4 5 4 3 2 1
@@ -140,11 +128,12 @@ echo '<br>';
 }
 echo '<br>';
 */
-for ($u = 1; $u <= 9; $u++) { // 1 2 3 4 5 - 6 7 8 9
+for ($u = 1; $u <= 9; $u++) {
     if ($u <= 5) {
         echo $u . ' ';
     } else {
         echo (10 - $u) . ' ';
+
     }
 }
 echo '<br>';
