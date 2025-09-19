@@ -75,6 +75,17 @@ for ($p = 2, $q = 3; $p <= 22 && $q <= 23;  $p = $p + 10, $q = $q + 10) {
 }
 echo '<br>';
 
+/* besser:
+
+for ($p = 2; $p <= 22;  $p = $p + 10) {
+    echo "a$p"."b$p + 1" . ' ';
+}
+echo '<br>';
+
+*/
+
+
+
 /*
 * Schreibe EINE for-Schleife, die Folgendes ausgibt:
 * 1 2 3 4 5 6 8 9 10
