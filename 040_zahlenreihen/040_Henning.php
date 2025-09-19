@@ -70,10 +70,23 @@ echo '<br>';
 * a2b3 a12b13 a22b23
 */
 
-for ($p = 2, $q = 3; $p <= 22 && $q <= 23;  $p = $p + 10, $q = $q + 10) {
+$q = 3;
+for ($p = 2; $p <= 22; $p = $p + 10) {
     echo "a$p"."b$q" . ' ';
+    $q = $q + 10;
 }
 echo '<br>';
+
+/* besser:
+
+for ($p = 2; $p <= 22;  $p = $p + 10) {
+    echo "a$p"."b$p + 1" . ' ';
+}
+echo '<br>';
+
+*/
+
+
 
 /*
 * Schreibe EINE for-Schleife, die Folgendes ausgibt:
