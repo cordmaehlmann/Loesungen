@@ -121,7 +121,6 @@ for ($i =1; $i <= 20; $i++) {
 print $summe;
 echo '<br>';
 
-
 /*
 * Schreibe EINE for-Schleife, die Folgendes ausgibt:
 * 1 2 3 4 5 4 3 2 1
