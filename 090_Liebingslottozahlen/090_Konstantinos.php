@@ -22,10 +22,11 @@ $array = [22,88,44,33,80,32,65,24];
 foreach ($array as $value) {
     echo "<li>$value</li>";
 }
-echo "</li>"
+echo "</ul>"
 ?>
 
 </body>
 </html>
+
 
 
