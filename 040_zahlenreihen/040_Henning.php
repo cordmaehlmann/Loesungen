@@ -111,7 +111,7 @@ for ($t = 1; $t <= 20; $t++) {
     $summe += $t;
 }
 echo "Die Summe der Zahlen beträgt: $summe";
-echo '<br';
+echo '<br>';
 /*
 * Schreibe EINE for-Schleife, die Folgendes ausgibt:
 * 1 2 3 4 5 4 3 2 1
