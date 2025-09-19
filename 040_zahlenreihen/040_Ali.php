@@ -117,11 +117,12 @@ print'<br>';
 * alle Zahlen von 1 bis 20 addiert
 * und danach das Endergebnis ausgibt.
 */
-for($i=1,$j=0; $i<20; $i++){
-    $j+=$i;
-    print $j . '<br>';
+$summe = 0;
+for ($i =1; $i <= 20; $i++) {
+    $summe += $i;
 }
-print'<br>';
+print $summe . '<br>';
+print '<br>';
 
 /*
 * Schreibe EINE for-Schleife, die Folgendes ausgibt:
@@ -133,7 +134,6 @@ for ($i=1; $i<=5; $i++) {
 for ($i=4; $i>=1; $i--) {
     print $i . '<br>';
 }
-print '<br>';
 
 /*
 * Schreibe ein Programm, das mit EINER for-Schleife
@@ -141,7 +141,7 @@ print '<br>';
 * (jeweils einschließlich) der Größe nach ausgibt.
 * 1 2 3 4 ..... 36 37 38 39 61 62 63 64 ... 97 98 99 100 */
 
-echo "\n";
+print '<br>';
 for ($i=1; $i<=100; $i++) {
-    echo "$i ";
+    print $i . '<br>';
 }
