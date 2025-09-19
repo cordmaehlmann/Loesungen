@@ -67,8 +67,8 @@ print "<br>";
 // Aufgabe 10
 $j = 0;
 $x = 4;
-for ($i = 13; $i <= 45; $i+=4) {
-    if(($i-9)%16 == 0) continue;
+for ($i = 13; $i <= 65; $i+=4) {
+    if(($i-9)%16 == 0) continue;  // 25 41
     print "$i ";
 }
 print "<br>";
@@ -84,7 +84,7 @@ print "$summe <br>";
 
 // Aufgabe 12
 $x = 1;
-for ($i = 1; $i >= 0; $i = $i + $x) {
+for ($i = 1; $i > 0; $i = $i + $x) {
     print "$i ";
     if($i == 5){
         $x = -1;

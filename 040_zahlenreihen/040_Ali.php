@@ -85,7 +85,7 @@ print'<br>';
 for($i = 0; $i < 3; $i++){
     $i1 = 2 + ($i * 10);
     $i2 = $i1 + 1;
-        print 'a' . $i1 . 'b' . $i2 . '<br>';
+    print 'a' . $i1 . 'b' . $i2 . '<br>';
 }
 print'<br>';
 
@@ -117,7 +117,9 @@ print'<br>';
 * alle Zahlen von 1 bis 20 addiert
 * und danach das Endergebnis ausgibt.
 */
-for($i=1,$j=0; $i<20; $i++){
+
+$j=0;
+for($i=1; $i<20; $i++) {
     $j+=$i;
     print $j . '<br>';
 }
