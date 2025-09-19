@@ -76,7 +76,9 @@ echo "<br><br>";
 
 echo "Schreibe EINE for-Schleife, die Folgendes ausgibt:</br>";
 echo "13 17 21 29 33 37 45:</br>";
-for ($i = 0, $val = 13; $i < 7; $i++) {
+
+$val = 13;
+for ($i = 0; $i < 7; $i++) {
     echo $val . " ";
     if ($i == 2) $val += 8; // Sprung von 21 auf 29
     else if ($i == 5) $val += 8; // Sprung von 37 auf 45
