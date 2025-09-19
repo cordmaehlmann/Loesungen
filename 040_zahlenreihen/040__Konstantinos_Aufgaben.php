@@ -107,7 +107,7 @@ for ($i=1,$j=0; $i<20; $i++) {
     $j+=$i;
     echo "$j ";
 }
-echo "\n";
+echo "$j\n";
 /*
 * Schreibe EINE for-Schleife, die Folgendes ausgibt:
 * 1 2 3 4 5 4 3 2 1

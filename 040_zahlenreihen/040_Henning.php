@@ -75,7 +75,6 @@ for ($p = 2, $q = 3; $p <= 22 && $q <= 23;  $p = $p + 10, $q = $q + 10) {
 }
 echo '<br>';
 
-
 /*
 * Schreibe EINE for-Schleife, die Folgendes ausgibt:
 * 1 2 3 4 5 6 8 9 10
@@ -128,12 +127,11 @@ echo '<br>';
 }
 echo '<br>';
 */
-for ($u = 1; $u <= 9; $u++) {
+for ($u = 1; $u <= 9; $u++) { // 1 2 3 4 5 - 6 7 8 9
     if ($u <= 5) {
         echo $u . ' ';
     } else {
         echo (10 - $u) . ' ';
-
     }
 }
 echo '<br>';
