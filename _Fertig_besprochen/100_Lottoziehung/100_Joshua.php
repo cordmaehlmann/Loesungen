@@ -16,7 +16,7 @@ shuffle($zahlen);
 $lottozahlen = array_slice($zahlen, 0, 6);
 
 // Sortieren für bessere Lesbarkeit
-sort($lottozahlen);
+# sort($lottozahlen);
 
 // Ausgabe
 echo "Gezogene Lottozahlen:<br>";
