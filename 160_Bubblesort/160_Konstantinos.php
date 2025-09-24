@@ -16,7 +16,6 @@ function bubbleSort($arr)
                 $swapped = true;
             }
         }
-        // If no swaps happened, array is sorted
         if (!$swapped) {
             break;
         }
@@ -28,5 +27,6 @@ function bubbleSort($arr)
 $sortedArr = bubbleSort($arr);
 var_dump($sortedArr);
 ?>
+
 
 
