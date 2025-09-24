@@ -106,7 +106,7 @@ $mitarbeiter2->set_gehalt($basisurlaub);
 var_dump($mitarbeiter1);
 function checkmitarbeiter($mitarbeiter1): int
 {
-    global $mitarbeiter1GU;
+    
     if ($mitarbeiter1->get_minderjahringe() == true) {
         $mitarbeiter1->set_gehalt($mitarbeiter1->gehalt+4);
     }
@@ -124,3 +124,4 @@ function checkmitarbeiter($mitarbeiter1): int
 }
 var_dump(checkmitarbeiter($mitarbeiter1));
 var_dump(checkmitarbeiter($mitarbeiter2));
+
