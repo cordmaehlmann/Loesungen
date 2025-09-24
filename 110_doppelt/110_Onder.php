@@ -10,14 +10,17 @@
  */
 
 
-function kein_doppelt($a,$b) :bool{
-    if(count(array_intersect($a,$b)) < 1){
-        echo "TRUE"."</br>";
-        return true;
-    }else {
-        echo "FALSE"."</br>";
-        print_r(array_intersect($a,$b));
-        return false;
-    }
+function kein_doppelt($zufallListe) :bool{
+    sort($zufallListe);
+    var_dump($zufallListe);
+   if(count(array_unique($zufallListe))===count($zufallListe) ) {
+       echo "In der Liste gibt es keine doppelten Element!";
+       return true;
+   }else {
+       echo "In der Liste gibt es doppelte Element!";
+       return false;
+   }
 }
-kein_doppelt([1,23,3,11,56,45],[1,2,3]);
+kein_doppelt([1,2,3,4]);
+echo "</br>";
+kein_doppelt([1,2,3,4,4]);
