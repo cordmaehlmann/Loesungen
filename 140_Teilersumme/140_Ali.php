@@ -33,7 +33,7 @@ function teiler_summe(int $t): bool {
     return $summe < $t;
 }
 
-// Testfälle
+// Ausgabe
 var_dump(teiler_summe(81)); // true
 var_dump(teiler_summe(80)); // false
 var_dump(teiler_summe(12)); // false
