@@ -25,7 +25,7 @@
 
 function generatePassword():string
 {
-    // Vokale und Konsonanten
+    // Vokale und Konsonanten definieren
     $vokale = ['a', 'e', 'u'];
     $konsonanten = ['b', 'c', 'd', 'f', 'g', 'h', 'k', 'm', 'n', 'p', 'r', 's', 't', 'w', 'x', 'z'];
 
@@ -48,7 +48,7 @@ function generatePassword():string
         $wort .= $char;
     }
 
-    // Erster Buchstabe groß
+    // Erster Buchstabe groß definieren
     $wort = ucfirst($wort);
 
     // Sonderzeichen wählen
