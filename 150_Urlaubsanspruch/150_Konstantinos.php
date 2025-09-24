@@ -20,6 +20,7 @@
  * erhalten 2 zusätzliche Tage Urlaub.
  */
 
+
 global $mitarbeiter1GU;
 
 class Mitarbeiter
@@ -47,7 +48,7 @@ class Mitarbeiter
         $this->behinderung = $behinderung;
     }
 
-    
+    // Method to get the name
     public function set_Betriebs($Betriebs)
     {
         $this->Betriebs = $Betriebs;
@@ -89,19 +90,23 @@ $mitarbeiter1->set_alter(60);
 
 
 var_dump($mitarbeiter1);
+function checkmitarbeiter($mitarbeiter1): int
+{
+    global $mitarbeiter1GU;
+    if ($mitarbeiter1->get_minderjahringe() == true) {
+        $mitarbeiter1GU += 4;
+    }
+    if ($mitarbeiter1->get_alter() > 55) {
+        $mitarbeiter1GU += 2;
+    }
+    if ($mitarbeiter1->get_Betriebs() == true) {
+        $mitarbeiter1GU += 2;
+    }
+    if ($mitarbeiter1->get_Behinderung() == true) {
+        $mitarbeiter1GU += 5;
+    }
+    var_dump($mitarbeiter1GU);
+    return $mitarbeiter1GU;
+}
 
-if ($mitarbeiter1->get_minderjahringe()==true) {
-    $mitarbeiter1GU+=4;
-}
-if ($mitarbeiter1->get_alter()>55) {
-    $mitarbeiter1GU+=2;
-}
-if ($mitarbeiter1->get_Betriebs()==true) {
-    $mitarbeiter1GU+=2;
-}
-if ($mitarbeiter1->get_Behinderung()==true) {
-    $mitarbeiter1GU+=5;
-}
-var_dump($mitarbeiter1GU);
-
-echo $mitarbeiter1GU;
+checkmitarbeiter($mitarbeiter1);
