@@ -47,7 +47,7 @@ class Mitarbeiter
         $this->behinderung = $behinderung;
     }
 
-    // Method to get the name
+    
     public function set_Betriebs($Betriebs)
     {
         $this->Betriebs = $Betriebs;
@@ -103,4 +103,5 @@ if ($mitarbeiter1->get_Behinderung()==true) {
     $mitarbeiter1GU+=5;
 }
 var_dump($mitarbeiter1GU);
+
 echo $mitarbeiter1GU;
