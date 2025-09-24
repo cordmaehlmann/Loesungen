@@ -21,7 +21,7 @@
  */
 
 
-global $mitarbeiter1GU;
+
 
 class Mitarbeiter
 {
@@ -57,6 +57,10 @@ class Mitarbeiter
     {
         $this->basisurlaub = $basisurlaub;
     }
+    public function set_gehalt($gehalt)
+    {
+        $this->gehalt = $gehalt;
+    }
 
     public function get_alter()
     {
@@ -77,36 +81,46 @@ class Mitarbeiter
     {
         return $this->Betriebs;
     }
+    public function get_gehalt()
+    {
+        return $this->gehalt;
+    }
 
 }
 $basisurlaub = 26;
-$mitarbeiter1GU+=$basisurlaub;
 $mitarbeiter1 = new Mitarbeiter();
 $mitarbeiter1->set_minderjahringe(false);
 $mitarbeiter1->set_behinderung(true);
 $mitarbeiter1->set_Betriebs(true);
 $mitarbeiter1->set_alter(60);
+$mitarbeiter1->set_gehalt($basisurlaub);
 
 
+$mitarbeiter2 = new Mitarbeiter();
+$mitarbeiter2->set_minderjahringe(false);
+$mitarbeiter2->set_behinderung(true);
+$mitarbeiter2->set_Betriebs(true);
+$mitarbeiter2->set_alter(50);
+$mitarbeiter2->set_gehalt($basisurlaub);
 
 var_dump($mitarbeiter1);
 function checkmitarbeiter($mitarbeiter1): int
 {
     global $mitarbeiter1GU;
     if ($mitarbeiter1->get_minderjahringe() == true) {
-        $mitarbeiter1GU += 4;
+        $mitarbeiter1->set_gehalt($mitarbeiter1->gehalt+4);
     }
     if ($mitarbeiter1->get_alter() > 55) {
-        $mitarbeiter1GU += 2;
+        $mitarbeiter1->set_gehalt($mitarbeiter1->gehalt+2);
     }
     if ($mitarbeiter1->get_Betriebs() == true) {
-        $mitarbeiter1GU += 2;
+        $mitarbeiter1->set_gehalt($mitarbeiter1->gehalt+2);
     }
     if ($mitarbeiter1->get_Behinderung() == true) {
-        $mitarbeiter1GU += 5;
+        $mitarbeiter1->set_gehalt($mitarbeiter1->gehalt+=5);
     }
-    var_dump($mitarbeiter1GU);
-    return $mitarbeiter1GU;
-}
 
-checkmitarbeiter($mitarbeiter1);
+    return $gehalt = $mitarbeiter1->get_gehalt();
+}
+var_dump(checkmitarbeiter($mitarbeiter1));
+var_dump(checkmitarbeiter($mitarbeiter2));
