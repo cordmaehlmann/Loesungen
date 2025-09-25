@@ -18,20 +18,20 @@
 
 
 function istTeilersummeKleiner($zahl) {
-    $summe = 0;  // hier sammeln wir die Teiler
+    $summe = 0;  
 
-    // Schleife: gehe alle Zahlen von 1 bis zur Hälfte der Zahl durch
+  
     for ($i = 1; $i <= $zahl / 2; $i++) {
-        if ($zahl % $i == 0) {   // % bedeutet: passt $i ohne Rest rein?
-            $summe = $summe + $i;  // dann addiere ihn
+        if ($zahl % $i == 0) {   
+            $summe = $summe + $i;  
         }
     }
 
-    // Am Ende vergleichen
+   
     if ($summe < $zahl) {
-        return true;   // Summe ist kleiner
+        return true;   
     } else {
-        return false;  // Summe ist gleich oder größer
+        return false; 
     }
 }
 var_dump(istTeilersummeKleiner(81));
