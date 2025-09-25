@@ -21,3 +21,4 @@ function checkArray($needle, $array): bool
         return false;
 }
 echo checkArray($needle, $array);
+

@@ -15,11 +15,12 @@ function kein_doppelt($array){
             if ($array[$i] == $array[$j]) {
                 return false;
             }
-
         }
-
     }
     return true;
 }
 $zahl =[1, 2, 3, 3, 5, 6];
-var_dump(kein_doppelt($zahl));
+var_dump(kein_doppelt($zahl)); // false
+
+$zahl =[1, 2, 3, 5, 6];
+var_dump(kein_doppelt($zahl));  // true

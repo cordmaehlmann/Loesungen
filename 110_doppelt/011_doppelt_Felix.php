@@ -8,8 +8,8 @@
  * und sie soll true oder false zurückgeben.
  *
  */
-$array1 = [1, 2, 3, 1];
-$array2 = [1, 2, 3, 4];
+$array1 = [1, 2, 3, 1];  // false
+$array2 = [1, 2, 3, 4];  // true
 
 function checkUnique($array) {
     $unique = array_unique($array);
@@ -22,3 +22,4 @@ function checkUnique($array) {
 checkUnique($array1);
 echo "<br>";
 checkUnique($array2);
+
