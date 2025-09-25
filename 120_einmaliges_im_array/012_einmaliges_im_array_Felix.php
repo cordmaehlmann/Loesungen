@@ -19,15 +19,19 @@ while (count($arraySingles) < 5) {
     if (!in_array($i, $arraySingles)) {
         $arraySingles[] = $i;
     }
-
 }
+var_dump($arraySingles);
 
 $arrayFinal = array_merge($arraySingles, $arraySingles);
+var_dump($arrayFinal);
 
 unset($arrayFinal[array_rand($arrayFinal)]);
 $arrayFinal = array_values($arrayFinal);
+var_dump($arrayFinal);
 
 //print_r($arrayFinal);
+
+$counter = [];
 
 foreach ($arrayFinal as $final) {
     if (isset($counter[$final])) {
@@ -36,6 +40,8 @@ foreach ($arrayFinal as $final) {
         $counter[$final] = 1;
     }
 }
+
+var_dump($counter);
 
 foreach ($counter as $num => $count) {
     if ($count === 1) {
@@ -47,6 +53,9 @@ foreach ($counter as $num => $count) {
        break;
     }
 }
+
+
+
 
 
 

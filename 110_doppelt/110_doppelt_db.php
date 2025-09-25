@@ -26,3 +26,6 @@ function double($array)
 // Hauptprogramm
 $liste = [1, 2, 3, 4, 5, 6, 7, 1];
 echo double($liste) ? "True" : "False";
+
+$liste = [1, 2, 3, 4, 5, 6, 7];
+echo double($liste) ? "True" : "False";

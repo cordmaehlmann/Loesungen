@@ -27,7 +27,8 @@ function teilersumme($x): bool
         } else continue;
     }
     var_dump($array);
-    return array_sum($array)<$x;
+    return array_sum($array) < $x;
 
 }
 var_dump(teilersumme($x));
+var_dump(teilersumme(81));

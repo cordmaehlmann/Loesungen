@@ -205,25 +205,19 @@ $datum = array(0 => array('tag' => rand(0,40),'monat' => rand(0,15),'jahr' => ra
     );
 
 for($i=0; $i<count($datum); $i++){
-    if($datum[$i]['jahr'] >= 1900 AND $datum[$i]['jahr'] <= 2100) {
-        if ($datum[$i]['monat'] > 0 and $datum[$i]['monat'] < $monate) {
-            if ($datum[$i]['tag'] > 0 and $datum[$i]['tag'] <= $tage[$datum[$i]['monat'] - 1]) {
-                print_r($datum[$i]);
-                echo "Datum ist korrekt. <br>";
-            }
-            elseif ($datum[$i]['tag'] == 29 and $datum[$i]['jahr'] % 4 == 0 and ($datum[$i]['jahr'] % 100 != 0 or $datum[$i]['jahr'] % 400 == 0)) {
-                print_r($datum[$i]);
-                echo "Datum ist korrekt. <br>";
-            }
-            else {
-                echo "Datum ist nicht korrekt. <br>";
-            }
+    if($datum[$i]['jahr'] >= 1900 && $datum[$i]['jahr'] <= 2100 
+        && $datum[$i]['monat'] > 0 && $datum[$i]['monat'] < $monate
+        && $datum[$i]['tag'] > 0 && $datum[$i]['tag'] <= $tage[$datum[$i]['monat'] - 1]) {
+        print_r($datum[$i]);
+        echo "Datum ist korrekt. <br>";
         }
-        else {
-            echo "Datum ist nicht korrekt. <br>";
-        }
+    elseif ($datum[$i]['monat'] == 2 && $datum[$i]['tag'] == 29 
+        && $datum[$i]['jahr'] % 4 == 0 && ($datum[$i]['jahr'] % 100 != 0 OR $datum[$i]['jahr'] % 400 == 0)) {
+        print_r($datum[$i]);
+        echo "Datum ist korrekt. <br>";
     }
-    else{
+    else {
+        print_r($datum[$i]);
         echo "Datum ist nicht korrekt. <br>";
     }
 }

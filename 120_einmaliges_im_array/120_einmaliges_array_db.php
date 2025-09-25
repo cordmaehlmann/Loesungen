@@ -23,6 +23,8 @@ while (count($liste) < 9) {
 }
 shuffle($liste);
 
+var_dump($liste);
+
 
 $count = array_count_values($liste);
 
