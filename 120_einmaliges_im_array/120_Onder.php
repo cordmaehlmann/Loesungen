@@ -20,6 +20,8 @@ while($a<4) {
         $a++;
     }
 }
+var_dump($doppelteZahlen);
+
 for($i=0;$i<1;$i++) {
     $randomZahl=rand(0,99);
     if(!in_array($randomZahl,$doppelteZahlen)){
@@ -28,9 +30,13 @@ for($i=0;$i<1;$i++) {
         $i--;
     }
 }
+var_dump($doppelteZahlen);
+
+
 $myArray= array_merge($doppelteZahlen,$einzigeZahl);
 shuffle($myArray);
 var_dump($myArray);
 $count = array_count_values($myArray);
 $suchendeZahl = array_search(1, $count);
 echo $suchendeZahl." wurde nur einmal in der Liste verwendet!";
+

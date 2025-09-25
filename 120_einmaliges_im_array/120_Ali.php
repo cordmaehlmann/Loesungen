@@ -14,6 +14,8 @@
 $array = [1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7];
 $counts = array_count_values($array);
 
+var_dump($counts);
+
 $einmalige_Zahl = null;
 foreach ($counts as $zahl => $anzahl) {
     if ($anzahl === 1) {
