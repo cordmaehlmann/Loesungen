@@ -1,21 +1,33 @@
 <?php
 // Aufgabe 110
+function checkUnique($array):bool{
+    $check = 0;
+    for($i = 0; $i < count($array); $i++){
+        for($j = 0; $j < count($array); $j++){
+            if($array[$i] == $array[$j] AND $i != $j){
+                $check++;
+            }
+        }
+    }
+    if($check > 0){     return false;   }
+    else{   return true;    }
+}
+
 $array = [];
-$array1 = [];
 for($i=0; $i<10; $i++){
     $array[$i] = rand(0,10);
 }
-$array1 = array_values(array_unique($array));
+echo checkUnique($array);
 
-for($j=0; $j<count($array1); $j++){
-    echo $array1[$j] . " ";
+foreach ($array as $arr){
+    echo $arr . " ";
 }
-echo '<br>';
 
 
 // Aufgabe 120
 $i = 0;
 $array = [];
+$found = [];
 while($i < 5){
     $value = rand(0,10);
     if(!in_array($value, $array)){
@@ -24,9 +36,27 @@ while($i < 5){
         $i++;
     }
 }
-array_pop($array);
-foreach($array as $val){
-    echo $val . " ";
+unset($array[count($array)-1]);         // array_pop($array);
+
+for($i = 0; $i < count($array); $i++){
+    $check = 0;
+    for($j = 0; $j < count($array); $j++){
+        if($array[$i] == $array[$j] AND $i != $j){
+            $check++;
+        }
+    }
+    if($check == 0){
+        $found[] = $array[$i];
+    }
+}
+
+echo "<br>";
+foreach ($array as $arr){
+    echo $arr . " ";
+}
+echo "<br> Einzelne Zahlen im Array: ";
+foreach($found as $unique){
+    echo $unique . " ";
 }
 echo '<br>';
 
@@ -162,7 +192,7 @@ $tage = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
 $monate = 12;
 
 // Datum kreieren
-$datum = array(0 => array('tag' => rand(0,100),'monat' => rand(0,100),'jahr' => rand(0,3000)),
+$datum = array(0 => array('tag' => rand(0,40),'monat' => rand(0,15),'jahr' => rand(1900,2200)),
     1 => array('tag' => rand(0,40),'monat' => rand(0,15),'jahr' => rand(1900,2200)),
     2 => array('tag' => rand(0,40),'monat' => rand(0,15),'jahr' => rand(1900,2200)),
     3 => array('tag' => rand(0,40),'monat' => rand(0,15),'jahr' => rand(1900,2200)),
@@ -181,7 +211,7 @@ for($i=0; $i<count($datum); $i++){
                 print_r($datum[$i]);
                 echo "Datum ist korrekt. <br>";
             }
-            elseif ($datum[$i]['tag'] == 29 and $datum[$i]['jahr'] % 4 == 0 and ($datum[$i]['monat'] % 100 != 0 or $datum[$i]['monat'] % 400 == 0)) {
+            elseif ($datum[$i]['tag'] == 29 and $datum[$i]['jahr'] % 4 == 0 and ($datum[$i]['jahr'] % 100 != 0 or $datum[$i]['jahr'] % 400 == 0)) {
                 print_r($datum[$i]);
                 echo "Datum ist korrekt. <br>";
             }
