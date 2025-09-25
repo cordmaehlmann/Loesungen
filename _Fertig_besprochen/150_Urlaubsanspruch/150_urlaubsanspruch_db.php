@@ -26,7 +26,7 @@ function calc($age, $time, $grade) {
     if ($age <= 17) {
         $urlaub = 30;
     }
-    elseif ($age  >= 56) {
+    elseif ($age >= 56) {
         $urlaub = 28;
     }
     if ($grade >= 50) {

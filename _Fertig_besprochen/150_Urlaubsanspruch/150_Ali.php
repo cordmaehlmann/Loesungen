@@ -21,7 +21,6 @@
  * erhalten 2 zusätzliche Tage Urlaub.
  */
 
-
 function berechneUrlaub(int $alter, int $behinderung, int $betriebszugehoerigkeit): int
 {
     // Basisurlaub
