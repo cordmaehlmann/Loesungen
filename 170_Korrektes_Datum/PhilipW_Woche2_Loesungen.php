@@ -217,6 +217,7 @@ for($i=0; $i<count($datum); $i++){
         echo "Datum ist korrekt. <br>";
     }
     else {
+        print_r($datum[$i]);
         echo "Datum ist nicht korrekt. <br>";
     }
 }
